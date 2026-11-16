@@ -1,0 +1,36 @@
+P2 - GitHub Repository Setup
+
+Objective:
+To create a GitHub repository and connect it
+with a local project using Git.
+
+Steps performed:
+
+1. Created a GitHub repository named Web_dev_lab_2.
+
+2. Initialized the local Git repository.
+
+3. Connected the local repository to GitHub.
+
+4. Set the main branch.
+
+5. Added project files to Git.
+
+6. Committed the changes.
+
+7. Pushed the local project to GitHub.
+
+Git Commands:
+
+git init
+git remote add origin REPOSITORY_URL
+git branch -M main
+git add .
+git commit -m "Initial commit"
+git push -u origin main
+
+Repository:
+https://github.com/Arfad07/Web_dev_lab_2
+
+Result:
+Successfully created and connected a GitHub repository.
