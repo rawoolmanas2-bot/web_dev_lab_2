@@ -1,0 +1,101 @@
+```css
+/* P11 - Newspaper Layout using CSS Grid */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Georgia, serif;
+    background-color: #f4f4f4;
+    color: #222;
+    line-height: 1.6;
+}
+
+.newspaper-header {
+    background-color: #172554;
+    color: white;
+    text-align: center;
+    padding: 30px 15px;
+}
+
+.newspaper-header h1 {
+    font-size: 36px;
+    letter-spacing: 3px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    background-color: #333;
+    padding: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+.newspaper-grid {
+    max-width: 1100px;
+    margin: 30px auto;
+    padding: 0 20px;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 20px;
+}
+
+article {
+    background-color: white;
+    padding: 25px;
+    border: 1px solid #ddd;
+}
+
+.main-news {
+    grid-row: span 2;
+}
+
+article h2 {
+    color: #172554;
+    margin-bottom: 12px;
+}
+
+.date {
+    color: #777;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+.bottom-news {
+    grid-column: 1 / -1;
+}
+
+footer {
+    background-color: #172554;
+    color: white;
+    text-align: center;
+    padding: 18px;
+}
+
+@media (max-width: 600px) {
+    .newspaper-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .main-news {
+        grid-row: auto;
+    }
+
+    .bottom-news {
+        grid-column: auto;
+    }
+
+    nav {
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+}
+```
