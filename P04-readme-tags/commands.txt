@@ -1,0 +1,29 @@
+# P4 – README and Version Tags
+
+## Objective
+To understand how to write a README file and create version tags in Git.
+
+## README
+A README file explains the project, its purpose, and how to use it.
+
+## Git Commands
+
+```bash
+# Check repository status
+git status
+
+# View commit history
+git log --oneline
+
+# Create a version tag
+git tag -a v1.0 -m "First version"
+
+# View tags
+git tag
+
+# Push tag to GitHub
+git push origin v1.0
+```
+
+## Result
+Successfully learned how to document a project using README and create version tags in Git.
