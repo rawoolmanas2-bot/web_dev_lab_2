@@ -1,19 +1,31 @@
-# Web Development Laboratory
+P1 - Terminal Navigation and Project Setup
 
-**Name:** Manas
-**Course:** Programming for Web Development  
-**Institution:** BOSS CODER School of Technology
+Objective:
+To learn basic terminal commands and project folder navigation.
 
-## Practical Assignments
+Commands:
 
-| Practical | Topic | Status |
-|---|---|---|
-| P1 | Terminal and Navigation | Completed |
-| P2 | GitHub Repository | In Progress |
-| P3 | Git Branch Workflow | Pending |
-| P4 | README and Version Tags | Pending |
-| P5–P13 | HTML and CSS Projects | Pending |
+1. pwd
+   Displays the current working directory.
 
-## About This Project
+2. ls
+   Lists files and folders.
 
-This repository contains my practical assignments for learning web development, HTML, CSS, Git and GitHub.
+3. mkdir foldername
+   Creates a new folder.
+
+4. cd foldername
+   Changes the current directory.
+
+5. cd ..
+   Moves one directory backward.
+
+6. touch filename
+   Creates a new file.
+
+7. ls -la
+   Displays all files, including hidden files.
+
+Result:
+Successfully learned basic terminal navigation
+and project folder creation.
