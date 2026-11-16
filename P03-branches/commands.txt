@@ -1,36 +1,34 @@
-P2 - GitHub Repository Setup
+P3 - Git Branching and Merging
 
 Objective:
-To create a GitHub repository and connect it
-with a local project using Git.
+To understand Git branching and merging.
 
 Steps performed:
 
-1. Created a GitHub repository named Web_dev_lab_2.
-
-2. Initialized the local Git repository.
-
-3. Connected the local repository to GitHub.
-
-4. Set the main branch.
-
-5. Added project files to Git.
-
-6. Committed the changes.
-
-7. Pushed the local project to GitHub.
+1. Created a feature branch.
+2. Switched to the feature branch.
+3. Created a new file.
+4. Added and committed the file.
+5. Pushed the feature branch to GitHub.
+6. Switched back to main.
+7. Merged the feature branch into main.
+8. Pushed the updated main branch.
 
 Git Commands:
 
-git init
-git remote add origin REPOSITORY_URL
-git branch -M main
-git add .
-git commit -m "Initial commit"
-git push -u origin main
+git switch -c feature/profile-page
 
-Repository:
-https://github.com/Arfad07/Web_dev_lab_2
+git add branch-demo.txt
+
+git commit -m "Create feature branch demo file"
+
+git push -u origin feature/profile-page
+
+git switch main
+
+git merge feature/profile-page
+
+git push origin main
 
 Result:
-Successfully created and connected a GitHub repository.
+Successfully created and merged a Git feature branch.
